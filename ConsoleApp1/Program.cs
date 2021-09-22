@@ -18,14 +18,28 @@ namespace ConsoleApp1
             //Console.WriteLine("1ci eded"+number1);
             //Console.WriteLine("2ci eded"+number2);
 
-            Console.WriteLine("Birinci ededi daxil edin");
-            int num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ikinci ededi daxil edin");
-            int num2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ucuncu ededi daxil edin");
-            int num3 = int.Parse(Console.ReadLine());
-            Console.WriteLine(num1*num2*num3);
-           
+            //Console.WriteLine("Birinci ededi daxil edin");
+            //int num1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Ikinci ededi daxil edin");
+            //int num2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Ucuncu ededi daxil edin");
+            //int num3 = int.Parse(Console.ReadLine());
+            //Console.WriteLine(num1*num2*num3);
+
+            int num1, num2;
+            Console.WriteLine("Birinci eded");
+            num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Ikinci eded");
+            num2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(num1 + num2);
+            Console.WriteLine(num1 - num2);
+            Console.WriteLine(num1 * num2);
+            Console.WriteLine(num1 / num2);
+
+
+
 
 
 
